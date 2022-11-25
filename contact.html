@@ -148,19 +148,19 @@
                 <div class="col-lg-8">
                     <div class="bg-white rounded p-5 m-5 mb-0">
 
-                        <form action="contact.php" method="POST">
+                        <form action="send_mail.php" method="POST">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Vaše ime" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Vaše ime" name="name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Vaš e-mail" style="height: 55px;">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Vaš e-mail" name="email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Naslov" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Naslov" name="title" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="5" placeholder="Poruka"></textarea>
+                                    <textarea class="form-control bg-light border-0" rows="5" placeholder="Poruka" name="comment"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Pošaljite poruku</button>
