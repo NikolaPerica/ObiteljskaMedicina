@@ -79,7 +79,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Naslovnica</a>
+                        <a href="index.html" class="nav-item nav-link">Naslovnica</a>
                         <a href="about.html" class="nav-item nav-link">O nama</a>
                         <a href="service.html" class="nav-item nav-link">Usluge</a>
                        <!-- <a href="price.html" class="nav-item nav-link">Pricing</a>
@@ -94,7 +94,7 @@
                                 <a href="search.html" class="dropdown-item">Search</a>
                             </div>
                         </div>-->
-                        <a href="contact.html" class="nav-item nav-link">Kontaktirajte nas</a>
+                        <a href="contact.html" class="nav-item nav-link active">Kontaktirajte nas</a>
                     </div>
                 </div>
             </nav>
@@ -148,7 +148,7 @@
                 <div class="col-lg-8">
                     <div class="bg-white rounded p-5 m-5 mb-0">
 
-                        <form action="send_mail.php" method="POST">
+                        <form method="post" action="send_mail.php">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control bg-light border-0" placeholder="Vaše ime" name="name" style="height: 55px;">
@@ -163,7 +163,7 @@
                                     <textarea class="form-control bg-light border-0" rows="5" placeholder="Poruka" name="comment"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Pošaljite poruku</button>
+                                    <button class="btn btn-primary w-100 py-3">Pošaljite poruku</button>
                                 </div>
                             </div>
                         </form>
